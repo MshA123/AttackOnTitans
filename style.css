@@ -1,0 +1,133 @@
+body{
+	background-image: url(background1.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+.frame{width: 77%;
+	height: 95%;
+	background-color: rgba(71,70,70,0.5);
+	margin: 10px auto;
+	border-radius: 10px;
+	margin-left: 20%;
+	position: fixed;
+}
+iframe{
+	border-radius: 10px;
+	}
+.frame2{
+	width: 90%;
+	height:95%;
+	background-color: rgba(71,70,70,0.5);
+	border-radius: 10px;
+	margin:1% 5%;
+	text-align: center;
+	position: fixed;
+	}
+button{
+	margin-top: 10px;
+	border-radius: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: black;
+	color:white;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+h1{color: white; 
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.menu {
+	width: 15%;
+	font-weight: bold;
+	color: #fff;
+	background-color: darkblue;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+}
+.menu a {
+	width: 100%;
+	display: block;
+	padding: 8px 16px;
+	text-decoration: solid;
+	color: inherit;
+	box-sizing: border-box;
+}
+.menu a:hover {
+	color: #000;
+	background-color: #fff;
+}
+p{
+	color: white;
+	opacity: 0.8;
+	text-align: justify;
+	text-indent: 20px;
+}
+.Plot{
+	height: 75%;
+	padding: 2%;
+	overflow-y: scroll;
+}
+.images{ position: absolute;
+top: 20%;
+ }
+.images img {
+	width: 20%;
+	border-radius:10px;
+	margin: 5px;
+	display: inline-block;
+	border:lightgrey outset 7px;
+}
+.images img:nth-child(7){width: 240px;
+	height: 300px;
+}
+.images img:nth-child(5){width: 240px;
+	height: 300px;
+}
+.back{
+	position: absolute;
+	top: 52%;
+	left: 46%;
+}
+.manga{
+	width: 80%;
+	margin: 0 auto;
+}
+.gallery-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	flex-direction: column;
+}
+.gallery-item {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	flex-direction: row;
+	align-items: center;
+	min-height: 210px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #B5D4C5;
+}
+.gallery-item img{
+	width: 400px;
+	height: 210px
+}
+.gallery-item a {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: auto;
+	flex-grow: 1;
+}
