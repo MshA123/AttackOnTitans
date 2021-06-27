@@ -78,6 +78,7 @@ p{
 }
 .images{ position: absolute;
 top: 20%;
+width:80%;
  }
 .images img {
 	width: 20%;
